@@ -12,6 +12,12 @@
     "type" : "git", 
     "url" : "https://github.com/CImrie/mongomem.git"
   },
+  "dependencies": {
+    "get-port": "^3.1.0",
+    "mongodb-prebuilt": "^6.2.0",
+    "tmp": "0.0.31",
+    "uuid": "^3.0.1"
+  },
   "devDependencies": {
     "ava": "^0.19.0",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -20,12 +26,8 @@
     "babel-preset-es2017": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "babel-runtime": "^6.23.0",
-    "get-port": "^3.1.0",
-    "mongodb-prebuilt": "^6.2.0",
     "portfinder": "^1.0.13",
-    "temp-path": "^1.0.0",
-    "tmp": "0.0.31",
-    "uuid": "^3.0.1"
+    "temp-path": "^1.0.0"
   },
   "ava": {
     "files": [
